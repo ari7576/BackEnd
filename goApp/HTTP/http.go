@@ -5,6 +5,8 @@ import (
 	"net/http"
 )
 
+//변경점
+
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
 		w.Write([]byte("go to hello"))
